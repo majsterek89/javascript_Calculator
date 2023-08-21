@@ -80,11 +80,10 @@ const handleOperator = (nextOperator) => {
         calculator.operator = nextOperator;
         return
     }
-    if (firstOperand ==null && !isNaN(inputValue)){
+    else if (firstOperand ==null && !isNaN(inputValue)){
         calculator.firstOperand = inputValue
     } else if (operator) {
         const result = calculate(firstOperand, inputValue, operator)
-       
         calculator.displayValue =`${parseFloat(result.toFixed(7))}`
         calculator.firstOperand = result;
     }
@@ -103,6 +102,8 @@ const calculate = (firstOperand, secondOperand, operator) => {
         return firstOperand * secondOperand;
     } else if (operator === '/') {
         return firstOperand / secondOperand
+    }  else if (operator === 'x^y') {
+        return Math.pow(firstOperand ,secondOperand);
     }
     return secondOperand;
 };
