@@ -3,21 +3,21 @@
 A calculator with a friendly graphical interface.
 
 Technologies used in the project:
-HTML
+-HTML,
 
-CSS
+-CSS,
 
-JavaScript
+-JavaScript.
 
 Functionalities:
--addition
+-Addition,
 
--subtraction
+-Subtraction,
 
--multiplication
+-Multiplication,
 
--division
+-Division,
 
--the value of the base raised to the power
+-The value of the base raised to the power,
 
--erasing the result
+-Rrasing the result.
