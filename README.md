@@ -22,4 +22,8 @@
 
 -The value of the base raised to the power,
 
--Rrasing the result.
+-Rrasing the result,
+
+-Decima,
+
+-The number of 7 digits to appear after the decimal point.
