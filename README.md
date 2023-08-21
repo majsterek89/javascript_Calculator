@@ -24,6 +24,6 @@
 
 -Rrasing the result,
 
--Decima,
+-Decimal,
 
 -The number of 7 digits to appear after the decimal point.
