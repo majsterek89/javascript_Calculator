@@ -1,6 +1,6 @@
 # javascript_Calculator
 
-A calculator with a friendly graphical interface.
+## A calculator with a friendly graphical interface.
 
 # Technologies used in the project:
 
