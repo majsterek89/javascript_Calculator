@@ -3,6 +3,7 @@
 A calculator with a friendly graphical interface.
 
 Technologies used in the project:
+
 -HTML,
 
 -CSS,
@@ -10,6 +11,7 @@ Technologies used in the project:
 -JavaScript.
 
 Functionalities:
+
 -Addition,
 
 -Subtraction,
