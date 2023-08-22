@@ -102,8 +102,10 @@ const calculate = (firstOperand, secondOperand, operator) => {
         return firstOperand * secondOperand;
     } else if (operator === '/') {
         return firstOperand / secondOperand
-    }  else if (operator === 'x^y') {
+    } else if (operator === 'x^y') {
         return Math.pow(firstOperand ,secondOperand);
+    } else if (operator === '%') {
+        return((firstOperand * secondOperand)/100);
     }
     return secondOperand;
 };
